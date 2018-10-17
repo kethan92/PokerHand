@@ -2,6 +2,20 @@ package example.poker;
 
 public class Card {
 
+	private static final String TWO = "2";
+	private static final String THREE = "3";
+	private static final String FOUR = "4";
+	private static final String FIVE = "5";
+	private static final String SIX = "6";
+	private static final String SEVEN = "7";
+	private static final String EIGHT = "8";
+	private static final String NINE = "9";
+	private static final String TEN = "10";
+	private static final String J = "J";
+	private static final String Q = "Q";
+	private static final String K = "K";
+	private static final String A = "A";
+	
 	private Integer rank;
 	
 	private String suit;
@@ -26,31 +40,31 @@ public class Card {
 	{
 		Integer rankAfterConvertFromString;
 		switch(rank) {
-			case "2": rankAfterConvertFromString = 2;
+			case TWO: rankAfterConvertFromString = 2;
 			 break;
-			case "3": rankAfterConvertFromString = 3;
+			case THREE: rankAfterConvertFromString = 3;
 			 break;
-			case "4": rankAfterConvertFromString = 4;
+			case FOUR: rankAfterConvertFromString = 4;
 			 break;
-			case "5": rankAfterConvertFromString = 5;
+			case FIVE: rankAfterConvertFromString = 5;
 			 break;
-			case "6": rankAfterConvertFromString = 6;
+			case SIX: rankAfterConvertFromString = 6;
 			 break;
-			case "7": rankAfterConvertFromString = 7;
+			case SEVEN: rankAfterConvertFromString = 7;
 			 break;
-			case "8": rankAfterConvertFromString = 8;
+			case EIGHT: rankAfterConvertFromString = 8;
 			 break;
-			case "9": rankAfterConvertFromString = 9;
+			case NINE: rankAfterConvertFromString = 9;
 			 break;
-			case "10": rankAfterConvertFromString = 10;
+			case TEN: rankAfterConvertFromString = 10;
 			 break;
-			case "J": rankAfterConvertFromString = 11;
+			case J: rankAfterConvertFromString = 11;
 			 break;
-			case "Q": rankAfterConvertFromString = 12;
+			case Q: rankAfterConvertFromString = 12;
 			 break;
-			case "K": rankAfterConvertFromString = 13;
+			case K: rankAfterConvertFromString = 13;
 			 break;
-			case "A": rankAfterConvertFromString = 14;
+			case A: rankAfterConvertFromString = 14;
 			 break;
 			default: rankAfterConvertFromString = 0;
 				 break;
